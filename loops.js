@@ -1,10 +1,11 @@
-function forLoop(arr){
-  const ar = [];
-  for(let i =0; i < 25; i++){
-    ar.push(`"I am ${i} strange loop${i === 0 ? '' : 's'}."`);
+function forLoop(array){
+  const array = [];
+  const num = 25;
+  for(let i =0; i < num; i++){
+    array.push(`I am a strange loop.`);
   }
-  let first = ar.slice(1,2);
-  return ar;
+
+  return array;
 }
 
 function whileLoop(n){
