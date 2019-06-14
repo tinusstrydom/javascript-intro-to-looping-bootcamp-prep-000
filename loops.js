@@ -2,7 +2,7 @@ function forLoop(array){
   const arr = [];
   const num = 25;
   for(let i =0; i < num; i++){
-    arr.push(`I am ${i} strange loop.`);
+    arr.push(`I am ${i} strange loop${i === 0 ? '' : 's'}.`);
   }
 
   return arr;
