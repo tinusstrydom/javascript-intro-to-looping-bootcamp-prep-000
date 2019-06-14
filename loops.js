@@ -1,11 +1,11 @@
 function forLoop(array){
-  const array = [];
+  const arr = [];
   const num = 25;
   for(let i =0; i < num; i++){
-    array.push(`I am a strange loop.`);
+    arr.push(`I am a strange loop.`);
   }
 
-  return array;
+  return arr;
 }
 
 function whileLoop(n){
